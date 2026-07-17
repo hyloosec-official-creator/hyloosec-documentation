@@ -1,0 +1,257 @@
+{
+  "id": "login",
+  "page": "login",
+  "title": "Login to HylooSec",
+  "shortTitle": "Login",
+  "description": "Use your User ID and password to securely access your HylooSec account.",
+
+  "category": "user-manual",
+  "version": "1.0.0",
+  "pageVersion": "1.0.0",
+  "minimumAppVersion": "1.0.0",
+  "lastUpdated": "2026-07-14",
+  "estimatedTime": "1-2 Minutes",
+
+  "status": "published",
+  "enabled": true,
+
+  "navigation": {
+    "previous": "create-account",
+    "next": "forgot-password"
+  },
+
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Login Overview",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Login page allows existing HylooSec users to securely access their account using the User ID generated during registration and the password created while creating the account."
+        },
+        {
+          "type": "tip",
+          "title": "Before You Login",
+          "text": "Keep your User ID, password and your chat security key or encrypted key file ready before logging in."
+        }
+      ]
+    },
+    {
+      "id": "login-fields",
+      "title": "Login Form",
+      "blocks": [
+        {
+          "type": "field-guide",
+          "fields": [
+            {
+              "name": "User ID",
+              "required": true,
+              "description": "Enter the User ID provided after successful account creation.",
+              "important": "Only numeric values are accepted."
+            },
+            {
+              "name": "Password",
+              "required": true,
+              "description": "Enter the password created during account registration."
+            },
+            {
+              "name": "Terms & Conditions",
+              "required": true,
+              "description": "Read and accept the Terms & Conditions before logging in."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login-process",
+      "title": "How to Login",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Enter User ID",
+              "description": "Enter your numeric User ID."
+            },
+            {
+              "step": 2,
+              "title": "Enter Password",
+              "description": "Enter your account password."
+            },
+            {
+              "step": 3,
+              "title": "Accept Terms",
+              "description": "Enable the Terms & Conditions checkbox."
+            },
+            {
+              "step": 4,
+              "title": "Click Login",
+              "description": "Press the Login button to continue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chat-security",
+      "title": "Chat Security Verification",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "After your User ID and password are successfully verified, HylooSec asks you to verify your chat security."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "If You Selected an Encrypted Key File",
+              "description": "Upload the same encrypted key file that was generated or selected during account creation."
+            },
+            {
+              "step": 2,
+              "title": "If You Selected a Security Key",
+              "description": "Enter the security key exactly as it was created during registration."
+            },
+            {
+              "step": 3,
+              "title": "Complete Verification",
+              "description": "After successful verification, your protected chats become accessible."
+            }
+          ]
+        },
+        {
+          "type": "warning",
+          "title": "Important",
+          "text": "Without the correct encrypted key file or security key, protected chats cannot be accessed."
+        }
+      ]
+    },
+    {
+      "id": "session",
+      "title": "Login Session",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "After successful login and chat security verification, HylooSec keeps your account logged in for up to 7 days on the current device."
+        },
+        {
+          "type": "tip",
+          "title": "Session Expiry",
+          "text": "After 7 days, you will be required to log in again and complete chat security verification."
+        }
+      ]
+    },
+    {
+      "id": "additional-options",
+      "title": "Other Options",
+      "blocks": [
+        {
+          "type": "list",
+          "title": "Available Actions",
+          "items": [
+            "Forgot Password - Recover access to your account by verifying your identity.",
+            "Create Account - Register a new HylooSec account.",
+            "Learn More - Read about HylooSec and its features."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-errors",
+      "title": "Common Login Problems",
+      "blocks": [
+        {
+          "type": "troubleshooting-list",
+          "items": [
+            {
+              "problem": "User ID is invalid",
+              "solution": "Enter only the numeric User ID provided during registration."
+            },
+            {
+              "problem": "Incorrect password",
+              "solution": "Verify that the password is entered correctly."
+            },
+            {
+              "problem": "Terms & Conditions not accepted",
+              "solution": "Select the checkbox before clicking Login."
+            },
+            {
+              "problem": "Encrypted key file not accepted",
+              "solution": "Upload the same encrypted key file associated with your account."
+            },
+            {
+              "problem": "Incorrect security key",
+              "solution": "Enter the exact security key that was created during registration."
+            },
+            {
+              "problem": "Session expired",
+              "solution": "Log in again using your User ID, password and chat security method."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security-tips",
+      "title": "Security Recommendations",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Never share your password.",
+            "Never share your encrypted key file.",
+            "Never share your security key.",
+            "Always log in using the official HylooSec website.",
+            "Store your encrypted key file in a secure location.",
+            "Log out from public or shared devices."
+          ]
+        }
+      ]
+    }
+  ],
+
+  "popup": {
+    "title": "Login Help",
+    "content": [
+      "Enter your numeric User ID.",
+      "Enter your account password.",
+      "Accept the Terms & Conditions.",
+      "Click Login.",
+      "Complete chat security verification using your encrypted key file or security key.",
+      "Your login session remains active for up to 7 days."
+    ],
+    "fullGuideSection": "login"
+  },
+
+  "searchKeywords": [
+    "HylooSec login",
+    "login with User ID",
+    "numeric User ID",
+    "HylooSec password",
+    "chat security verification",
+    "encrypted key file",
+    "security key",
+    "7-day login session",
+    "session expired",
+    "forgot password",
+    "create account"
+  ],
+
+  "relatedPages": [
+    {
+      "id": "create-account",
+      "title": "Create Account"
+    },
+    {
+      "id": "forgot-password",
+      "title": "Forgot Password"
+    },
+    {
+      "id": "main-chat",
+      "title": "Main Chat"
+    }
+  ]
+}

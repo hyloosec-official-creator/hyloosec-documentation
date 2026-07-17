@@ -1,0 +1,238 @@
+{
+  "id": "find-user",
+  "page": "find-user",
+  "title": "Find a User",
+  "shortTitle": "Find User",
+  "description": "Search any HylooSec user using their unique 10-digit User ID and start a conversation.",
+
+  "category": "user-manual",
+  "version": "1.0.0",
+  "pageVersion": "1.0.0",
+  "minimumAppVersion": "1.0.0",
+  "lastUpdated": "2026-07-15",
+  "estimatedTime": "1-2 Minutes",
+
+  "status": "published",
+  "enabled": true,
+
+  "navigation": {
+    "previous": "main-chat",
+    "next": "settings"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Find User Overview",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Find User feature allows you to search for any HylooSec user using their unique 10-digit User ID. Once a user is found, you can immediately start a conversation."
+        }
+      ]
+    },
+    {
+      "id": "open-find-user",
+      "title": "Opening Find User",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Open Sidebar",
+              "description": "Locate the Find User icon in the application sidebar."
+            },
+            {
+              "step": 2,
+              "title": "Open Search Window",
+              "description": "Click the Find User icon to open the search popup."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "search-user",
+      "title": "Searching for a User",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Enter the user's unique 10-digit User ID into the search box and click the Search button."
+        },
+        {
+          "type": "field-guide",
+          "fields": [
+            {
+              "name": "User ID",
+              "required": true,
+              "description": "Enter the exact 10-digit HylooSec User ID.",
+              "important": "Only numeric User IDs are supported."
+            }
+          ]
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Enter User ID",
+              "description": "Type the user's 10-digit User ID."
+            },
+            {
+              "step": 2,
+              "title": "Search",
+              "description": "Click the Search button."
+            },
+            {
+              "step": 3,
+              "title": "View Result",
+              "description": "If the account exists, HylooSec displays the user's information."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "search-result",
+      "title": "Search Results",
+      "blocks": [
+        {
+          "type": "feature-list",
+          "items": [
+            {
+              "name": "Profile Image",
+              "description": "Displays the user's current profile picture when available."
+            },
+            {
+              "name": "User Name",
+              "description": "Displays the user's HylooSec display name."
+            },
+            {
+              "name": "Bio",
+              "description": "Displays the user's profile bio or mood."
+            },
+            {
+              "name": "Message Button",
+              "description": "Allows you to immediately begin chatting with the user."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start-chat",
+      "title": "Start a Conversation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Click the Message button to begin chatting with the selected user."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Click Message",
+              "description": "Select the Message button shown with the search result."
+            },
+            {
+              "step": 2,
+              "title": "Conversation Created",
+              "description": "If no previous conversation exists, HylooSec automatically creates one."
+            },
+            {
+              "step": 3,
+              "title": "Existing Conversation",
+              "description": "If a conversation already exists, it is opened directly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close-popup",
+      "title": "Closing the Search Window",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Click the Close (X) button to close the Find User popup without starting a conversation."
+        }
+      ]
+    },
+    {
+      "id": "common-problems",
+      "title": "Common Problems",
+      "blocks": [
+        {
+          "type": "troubleshooting-list",
+          "items": [
+            {
+              "problem": "User not found",
+              "solution": "Verify that the entered User ID is correct and belongs to an existing HylooSec account."
+            },
+            {
+              "problem": "Search returns no result",
+              "solution": "Check your internet connection and verify the User ID."
+            },
+            {
+              "problem": "Message button does not appear",
+              "solution": "The user may not exist or the search request may not have completed successfully."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy & Security",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Users can only be searched using their unique User ID.",
+            "Searching by name, bio or profile details is not supported.",
+            "Always verify the User ID before starting a conversation.",
+            "Only share your User ID with people you trust."
+          ]
+        }
+      ]
+    }
+  ],
+  "popup": {
+    "title": "Find User Help",
+    "content": [
+      "Click the Find User icon.",
+      "Enter the user's 10-digit User ID.",
+      "Click Search.",
+      "Review the user's information.",
+      "Click Message to start chatting.",
+      "Close the popup using the X button when finished."
+    ],
+    "fullGuideSection": "find-user"
+  },
+  "searchKeywords": [
+    "HylooSec find user",
+    "search HylooSec user",
+    "10-digit User ID",
+    "find user by ID",
+    "message user",
+    "start conversation",
+    "new conversation",
+    "search popup",
+    "user not found"
+  ],
+  "relatedPages": [
+    {
+      "id": "main-chat",
+      "title": "Main Chat"
+    },
+    {
+      "id": "settings",
+      "title": "Settings"
+    },
+    {
+      "id": "login",
+      "title": "Login"
+    }
+  ]
+}

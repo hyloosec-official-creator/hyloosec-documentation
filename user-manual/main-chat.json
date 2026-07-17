@@ -1,0 +1,591 @@
+{
+  "id": "main-chat",
+  "page": "main-chat",
+  "title": "Using the HylooSec Chat Page",
+  "shortTitle": "Chats",
+  "description": "Learn how to view conversations, open a chat, read messages, send text, emojis and multiple media files, and view another user's profile information.",
+
+  "category": "user-manual",
+  "version": "1.0.0",
+  "pageVersion": "1.0.0",
+  "minimumAppVersion": "1.0.0",
+
+  "lastUpdated": "2026-07-15",
+  "estimatedTime": "4-6 Minutes",
+
+  "status": "published",
+  "enabled": true,
+
+  "navigation": {
+    "previous": "find-user",
+    "next": "settings"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Chat Page Overview",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "After successfully logging in, HylooSec opens the main chat page. This page contains the application sidebar, your conversation list and the main chat area."
+        },
+        {
+          "type": "paragraph",
+          "text": "When no conversation is selected, the main area displays the Select a conversation screen. Select any available conversation from the chat list to open its complete chat window."
+        }
+      ]
+    },
+    {
+      "id": "page-layout",
+      "title": "Main Page Layout",
+      "blocks": [
+        {
+          "type": "feature-list",
+          "items": [
+            {
+              "name": "Application Sidebar",
+              "description": "Contains navigation controls for important sections of HylooSec. Find User and Settings are explained separately in their own guides."
+            },
+            {
+              "name": "Conversation List",
+              "description": "Displays users with whom you already have an active or registered conversation."
+            },
+            {
+              "name": "Main Chat Area",
+              "description": "Displays either the default Select a conversation screen or the currently selected conversation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "default-chat-screen",
+      "title": "Default Chat Screen",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Until you select a conversation, the main chat area displays a default screen asking you to select a conversation."
+        },
+        {
+          "type": "info",
+          "title": "End-to-End Encryption",
+          "text": "The default screen also informs you that chats are end-to-end encrypted."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "View Your Conversations",
+              "description": "Check the available users in the conversation list."
+            },
+            {
+              "step": 2,
+              "title": "Select a Conversation",
+              "description": "Click a user from the conversation list."
+            },
+            {
+              "step": 3,
+              "title": "Open the Chat",
+              "description": "The selected user's conversation will appear in the main chat area."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conversation-list",
+      "title": "Conversation List",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The conversation list appears beside the application sidebar and provides a quick summary of your active chats."
+        },
+        {
+          "type": "feature-list",
+          "items": [
+            {
+              "name": "Profile Image",
+              "description": "Displays the user's current profile image or a default profile icon."
+            },
+            {
+              "name": "User Name",
+              "description": "Displays the name selected by the user for their HylooSec account."
+            },
+            {
+              "name": "Last Message",
+              "description": "Displays a preview of the most recent message in the conversation."
+            },
+            {
+              "name": "Message Timestamp",
+              "description": "Displays the time or date associated with the latest message."
+            },
+            {
+              "name": "Last Online Time",
+              "description": "Displays when the user was last online."
+            },
+            {
+              "name": "Account Creation Time",
+              "description": "If a user has created an account but has never logged in, HylooSec may display the account creation time instead of a last-online time."
+            },
+            {
+              "name": "Selected Conversation",
+              "description": "The currently opened conversation is visually highlighted in the list."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "open-conversation",
+      "title": "Opening a Conversation",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Locate the User",
+              "description": "Find the required user in your conversation list."
+            },
+            {
+              "step": 2,
+              "title": "Select the User",
+              "description": "Click the user's conversation entry."
+            },
+            {
+              "step": 3,
+              "title": "View Chat History",
+              "description": "The chat window opens and displays the messages exchanged with that user."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chat-header",
+      "title": "Chat Header",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The top of an opened conversation contains the selected user's profile image, name and current online or last-seen information."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "View Basic Information",
+              "description": "Check the user's name, profile image and online or last-seen status in the chat header."
+            },
+            {
+              "step": 2,
+              "title": "Open User Details",
+              "description": "Click the chat header to open the user's detailed profile panel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "user-details",
+      "title": "Viewing User Details",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Clicking the user information in the chat header opens a detailed profile panel for that user."
+        },
+        {
+          "type": "feature-list",
+          "items": [
+            {
+              "name": "Profile Image",
+              "description": "Displays a larger version of the user's profile image."
+            },
+            {
+              "name": "Name",
+              "description": "Displays the user's selected HylooSec name."
+            },
+            {
+              "name": "Bio",
+              "description": "Displays the profile bio or mood added by the user."
+            },
+            {
+              "name": "User ID",
+              "description": "Displays the unique HylooSec User ID associated with the account."
+            },
+            {
+              "name": "Media, Links and Documents",
+              "description": "Provides access to supported media, links and documents shared in the conversation when available."
+            },
+            {
+              "name": "Mute Notifications",
+              "description": "Allows conversation notification controls when the option is available."
+            },
+            {
+              "name": "Close Button",
+              "description": "Closes the user details panel and returns to the conversation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chat-window",
+      "title": "Chat Window",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The central chat window displays the complete available conversation history between you and the selected user."
+        },
+        {
+          "type": "feature-list",
+          "items": [
+            {
+              "name": "Received Messages",
+              "description": "Messages received from the other user appear on the opposite side of your sent messages."
+            },
+            {
+              "name": "Sent Messages",
+              "description": "Messages sent by you appear using the outgoing message style."
+            },
+            {
+              "name": "Message Time",
+              "description": "Each message displays the time at which it was sent."
+            },
+            {
+              "name": "Date Separators",
+              "description": "Messages from different dates are separated using date labels."
+            },
+            {
+              "name": "Message Status",
+              "description": "Outgoing messages may display their current sending, sent, delivered or seen status."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "long-messages",
+      "title": "Reading Long Messages",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "HylooSec supports long text messages containing thousands of characters."
+        },
+        {
+          "type": "info",
+          "title": "More Button",
+          "text": "When a text message exceeds 200 characters, HylooSec displays a More option so that the complete message can be expanded and read."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Locate the Long Message",
+              "description": "Open the conversation containing the long message."
+            },
+            {
+              "step": 2,
+              "title": "Click More",
+              "description": "Select the More option displayed with the message."
+            },
+            {
+              "step": 3,
+              "title": "Read the Full Message",
+              "description": "The remaining message content will be displayed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "message-composer",
+      "title": "Message Composer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The message composer is located at the bottom of the chat window. It contains the media selector, emoji selector, message input and Send button."
+        },
+        {
+          "type": "feature-list",
+          "items": [
+            {
+              "name": "Media Selector",
+              "description": "Allows you to select supported files from your device."
+            },
+            {
+              "name": "Emoji Selector",
+              "description": "Opens the emoji picker so that emojis can be inserted into your message."
+            },
+            {
+              "name": "Message Input",
+              "description": "Allows you to write and edit your text message."
+            },
+            {
+              "name": "Send Button",
+              "description": "Sends the prepared text, emojis, files or a supported combination of them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "send-text-message",
+      "title": "Sending a Text Message",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Open a Conversation",
+              "description": "Select the user you want to message."
+            },
+            {
+              "step": 2,
+              "title": "Write Your Message",
+              "description": "Click the message input and enter your text."
+            },
+            {
+              "step": 3,
+              "title": "Review the Message",
+              "description": "Check the message before sending it."
+            },
+            {
+              "step": 4,
+              "title": "Send the Message",
+              "description": "Click the Send button."
+            }
+          ]
+        },
+        {
+          "type": "warning",
+          "title": "Empty Messages",
+          "text": "The Send button will not send a message when no text, emoji or file has been added."
+        }
+      ]
+    },
+    {
+      "id": "send-emojis",
+      "title": "Using Emojis",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Open the Emoji Selector",
+              "description": "Click the emoji icon beside the message input."
+            },
+            {
+              "step": 2,
+              "title": "Choose an Emoji",
+              "description": "Select one or more emojis from the available emoji picker."
+            },
+            {
+              "step": 3,
+              "title": "Add Optional Text",
+              "description": "You may add text before or after the selected emojis."
+            },
+            {
+              "step": 4,
+              "title": "Send",
+              "description": "Click the Send button to deliver the message."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "send-media",
+      "title": "Sending Files and Media",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "HylooSec allows you to select and send multiple supported files in a conversation."
+        },
+        {
+          "type": "info",
+          "title": "File Size Limit",
+          "text": "Each selected file can be up to 10 MB. Files larger than the supported limit may not be accepted."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Open the Media Selector",
+              "description": "Click the attachment or media icon beside the message input."
+            },
+            {
+              "step": 2,
+              "title": "Select Files",
+              "description": "Choose one or multiple supported files from your device."
+            },
+            {
+              "step": 3,
+              "title": "Review Selected Files",
+              "description": "Check the selected files before submitting them."
+            },
+            {
+              "step": 4,
+              "title": "Add Optional Text",
+              "description": "You may include a text message or emojis with the selected files."
+            },
+            {
+              "step": 5,
+              "title": "Send the Files",
+              "description": "Click the Send button and wait while the files are processed and uploaded."
+            }
+          ]
+        },
+        {
+          "type": "warning",
+          "title": "Do Not Close the Page During Upload",
+          "text": "Keep the conversation open until the selected files have finished processing and sending."
+        }
+      ]
+    },
+    {
+      "id": "message-status",
+      "title": "Understanding Message Status",
+      "blocks": [
+        {
+          "type": "status-list",
+          "items": [
+            {
+              "label": "Sending",
+              "description": "The message or file is currently being processed."
+            },
+            {
+              "label": "Sent",
+              "description": "The message has been successfully sent from your account."
+            },
+            {
+              "label": "Delivered",
+              "description": "The message has reached the recipient."
+            },
+            {
+              "label": "Seen",
+              "description": "The recipient has opened or viewed the message."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "online-status",
+      "title": "Online and Last-Seen Information",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "HylooSec may display a user's current online status or the last time the user was active."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Online indicates that the user is currently connected to HylooSec.",
+            "Last seen indicates the most recent recorded activity time.",
+            "If the account has never been used for login, the displayed time may represent the account creation time.",
+            "Status information may update when the user's connection changes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-problems",
+      "title": "Common Chat Problems",
+      "blocks": [
+        {
+          "type": "troubleshooting-list",
+          "items": [
+            {
+              "problem": "No conversation is open",
+              "solution": "Select a user from the conversation list."
+            },
+            {
+              "problem": "Send button does not work",
+              "solution": "Add text, an emoji or at least one supported file before clicking Send."
+            },
+            {
+              "problem": "A file cannot be selected or sent",
+              "solution": "Check that the file type is supported and that the individual file size does not exceed 10 MB."
+            },
+            {
+              "problem": "A long message is not completely visible",
+              "solution": "Click the More option displayed with the message."
+            },
+            {
+              "problem": "User details panel is open",
+              "solution": "Click its close icon to return to the complete chat window."
+            },
+            {
+              "problem": "Messages are not updating",
+              "solution": "Check your internet connection and wait for HylooSec to reconnect."
+            },
+            {
+              "problem": "File upload remains in progress",
+              "solution": "Keep the page open, check your internet connection and wait for the upload to complete."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-and-safety",
+      "title": "Chat Privacy and Safety",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Verify the recipient's User ID before sharing private information.",
+            "Do not send passwords, security keys, recovery answers or account documents through chat.",
+            "Review files before sending them.",
+            "Avoid opening unexpected files received from unknown users.",
+            "Do not leave an active HylooSec session unattended on a shared device.",
+            "Use the official HylooSec website when accessing your conversations."
+          ]
+        }
+      ]
+    }
+  ],
+  "popup": {
+    "title": "Chat Page Help",
+    "content": [
+      "Select a user from the conversation list to open a chat.",
+      "Click the chat header to view the user's profile details.",
+      "Use the message box to enter text.",
+      "Use the emoji icon to add emojis.",
+      "Use the attachment icon to select multiple files.",
+      "Each selected file can be up to 10 MB.",
+      "Messages longer than 200 characters display a More option.",
+      "An empty message cannot be sent."
+    ],
+    "fullGuideSection": "main-chat"
+  },
+  "searchKeywords": [
+    "HylooSec chat page",
+    "active chats",
+    "conversation list",
+    "open conversation",
+    "send message",
+    "send emoji",
+    "send multiple files",
+    "10 MB file limit",
+    "long messages",
+    "more button",
+    "user profile",
+    "online status",
+    "last seen",
+    "message status"
+  ],
+  "relatedPages": [
+    "find-user",
+    "settings",
+    "login",
+    "file-sharing",
+    "message-security"
+  ]
+}

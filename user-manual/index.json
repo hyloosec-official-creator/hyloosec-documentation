@@ -1,0 +1,107 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-17",
+  "application": {
+    "name": "HylooSec",
+    "website": "https://www.hyloosec.online",
+    "description": "Privacy-first real-time messaging platform designed for secure communication without requiring a phone number or email address."
+  },
+  "hero": {
+    "title": "HylooSec User Manual",
+    "subtitle": "Everything you need to know to use HylooSec securely and efficiently.",
+    "icon": "book"
+  },
+  "categories": [
+    {
+      "id": "getting-started",
+      "title": "Getting Started",
+      "description": "Create your account and log in securely.",
+      "pages": [
+        {
+          "title": "Create Account",
+          "file": "create-account.json",
+          "icon": "person_add"
+        },
+        {
+          "title": "Login",
+          "file": "login.json",
+          "icon": "login"
+        },
+        {
+          "title": "Forgot Password",
+          "file": "forgot-password.json",
+          "icon": "lock_reset"
+        }
+      ]
+    },
+    {
+      "id": "application",
+      "title": "Application",
+      "description": "Learn how to use the main features of HylooSec.",
+      "pages": [
+        {
+          "title": "Main Chat",
+          "file": "main-chat.json",
+          "icon": "chat"
+        },
+        {
+          "title": "Find User",
+          "file": "find-user.json",
+          "icon": "search"
+        },
+        {
+          "title": "Settings",
+          "file": "settings.json",
+          "icon": "settings"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Privacy & Security",
+      "description": "Learn how HylooSec protects your conversations.",
+      "external": "../privacy/index.json",
+      "icon": "shield"
+    },
+    {
+      "id": "features",
+      "title": "Features",
+      "description": "Explore all major features available in HylooSec.",
+      "external": "../features/index.json",
+      "icon": "bolt"
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "description": "Answers to common user questions.",
+      "external": "../faq/index.json",
+      "icon": "help"
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Troubleshooting",
+      "description": "Fix common problems quickly.",
+      "external": "../troubleshooting/index.json",
+      "icon": "build"
+    },
+    {
+      "id": "terms",
+      "title": "Terms & Conditions",
+      "description": "Read HylooSec terms of service.",
+      "external": "../terms/index.json",
+      "icon": "description"
+    },
+    {
+      "id": "about",
+      "title": "About HylooSec",
+      "description": "Learn why HylooSec was created and its vision.",
+      "external": "../about/index.json",
+      "icon": "info"
+    }
+  ],
+  "footer": {
+    "copyright": "© 2026 HylooSec",
+    "support": "support@hyloosec.online",
+    "website": "https://www.hyloosec.online"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "application": {
+    "name": "HylooSec Documentation Center",
+    "version": "1.0.0",
+    "language": "en",
+    "lastUpdated": "2026-07-17"
+  },
+
+  "settings": {
+    "searchEnabled": true,
+    "videoSupport": true,
+    "showLastUpdated": true,
+    "defaultSection": "create-account"
+  },
+
+  "categories": [
+    {
+      "id": "user-manual",
+      "title": "User Manual",
+      "icon": "menu_book",
+      "order": 1,
+      "documents": [
+        {
+          "id": "create-account",
+          "title": "Create Account",
+          "description": "Learn how to create a secure HylooSec account.",
+          "icon": "person_add",
+          "file": "user-manual/create-account.json",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "id": "login",
+          "title": "Login",
+          "description": "Sign in securely using your User ID and password.",
+          "icon": "login",
+          "file": "user-manual/login.json",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "id": "forgot-password",
+          "title": "Forgot Password",
+          "description": "Recover your account securely.",
+          "icon": "lock_reset",
+          "file": "user-manual/forgot-password.json",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "id": "main-chat",
+          "title": "Main Chat",
+          "description": "Everything about secure messaging.",
+          "icon": "chat",
+          "file": "user-manual/main-chat.json",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "id": "find-user",
+          "title": "Find User",
+          "description": "Search users using their unique User ID.",
+          "icon": "search",
+          "file": "user-manual/find-user.json",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "id": "settings",
+          "title": "Settings",
+          "description": "Customize your HylooSec experience.",
+          "icon": "settings",
+          "file": "user-manual/settings.json",
+          "order": 6,
+          "enabled": true
+        }
+      ]
+    },
+
+    {
+      "id": "privacy",
+      "title": "Privacy & Security",
+      "icon": "shield",
+      "order": 2,
+      "path": "privacy/index.json",
+      "enabled": true
+    },
+
+    {
+      "id": "features",
+      "title": "Features",
+      "icon": "bolt",
+      "order": 3,
+      "path": "features/index.json",
+      "enabled": true
+    },
+
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "icon": "help",
+      "order": 4,
+      "path": "faq/index.json",
+      "enabled": true
+    },
+
+    {
+      "id": "troubleshooting",
+      "title": "Troubleshooting",
+      "icon": "build",
+      "order": 5,
+      "path": "troubleshooting/index.json",
+      "enabled": true
+    },
+
+    {
+      "id": "terms",
+      "title": "Terms & Conditions",
+      "icon": "description",
+      "order": 6,
+      "path": "terms/index.json",
+      "enabled": true
+    },
+
+    {
+      "id": "about",
+      "title": "About HylooSec",
+      "icon": "info",
+      "order": 7,
+      "path": "about/index.json",
+      "enabled": true
+    }
+  ]
+}

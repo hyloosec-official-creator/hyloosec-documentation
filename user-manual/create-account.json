@@ -1,0 +1,414 @@
+{
+  "id": "create-account",
+  "page": "registration",
+  "title": "Create Your HylooSec Account",
+  "shortTitle": "Create Account",
+  "description": "Follow this guide to create your HylooSec account and securely save the login details generated after registration.",
+
+  "category": "user-manual",
+  "version": "1.0.0",
+  "pageVersion": "1.0.0",
+  "minimumAppVersion": "1.0.0",
+  "lastUpdated": "2026-07-10",
+  "estimatedTime": "2–5 Minutes",
+
+  "status": "published",
+  "enabled": true,
+
+  "navigation": {
+    "previous": null,
+    "next": "login"
+  },
+  "sections": [
+    {
+      "id": "before-registration",
+      "title": "Before You Create an Account",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "HylooSec is designed to let users create a private identity without requiring them to publicly display their real personal information."
+        },
+        {
+          "type": "info",
+          "title": "Choose Memorable Information",
+          "text": "You may use a preferred name, nickname, profile identity, mood, or other memorable information. Make sure you can remember the information because some details may be needed for account recovery or verification."
+        }
+      ]
+    },
+    {
+      "id": "registration-fields",
+      "title": "Registration Form Fields",
+      "blocks": [
+        {
+          "type": "field-guide",
+          "fields": [
+            {
+              "name": "Name",
+              "required": true,
+              "description": "Enter the name that you want to use on HylooSec. It may be your real name, nickname, display name, or any preferred identity.",
+              "example": "Shadow User",
+              "important": "Choose a name that you can remember."
+            },
+            {
+              "name": "Father Name",
+              "required": true,
+              "description": "Enter a memorable name in this field. HylooSec does not require you to publicly display your real father's name.",
+              "example": "Guardian",
+              "important": "Remember the value entered here because it may be used for account-related verification."
+            },
+            {
+              "name": "Bio",
+              "required": true,
+              "description": "Write a short description about yourself, your current mood, your interests, or any profile message.",
+              "example": "Building something private and secure.",
+              "important": "Avoid adding sensitive personal information such as your address, phone number, financial details, or private identification numbers."
+            },
+            {
+              "name": "Date of Birth",
+              "required": true,
+              "description": "Select a memorable date for your HylooSec profile. A real date of birth is not required by the current registration process.",
+              "example": "A date you can remember",
+              "important": "Make sure the selected date follows any minimum-age requirements applicable to the service."
+            },
+            {
+              "name": "Chat Security",
+              "required": true,
+              "description": "Choose how you want to protect access to your chats. Depending on the available option, you may create a security key or a PIN.",
+              "options": [
+                {
+                  "label": "Generate Key",
+                  "description": "The system generates or accepts a security key for chat protection."
+                },
+                {
+                  "label": "Create PIN",
+                  "description": "Create a memorable numeric PIN for accessing protected chat features."
+                }
+              ],
+              "important": "Do not share your chat security key or PIN with another person."
+            },
+            {
+              "name": "Security Question",
+              "required": true,
+              "description": "Select a security question that can help verify your account during recovery or security checks.",
+              "example": "What is the name of your first school?",
+              "important": "Choose a question whose answer you can remember but other people cannot easily guess."
+            },
+            {
+              "name": "Security Answer",
+              "required": true,
+              "description": "Enter the answer to your selected security question.",
+              "example": "A memorable private answer",
+              "important": "Security answers may be case-sensitive. Remember the spelling and format you use."
+            },
+            {
+              "name": "Password",
+              "required": true,
+              "description": "Create a strong password for your HylooSec account.",
+              "recommendations": [
+                "Use a long and unique password.",
+                "Include uppercase and lowercase letters.",
+                "Include numbers and special characters.",
+                "Do not reuse a password from another website.",
+                "Do not share your password with anyone."
+              ]
+            },
+            {
+              "name": "Confirm Password",
+              "required": true,
+              "description": "Enter the same password again to confirm that it was entered correctly.",
+              "important": "The Password and Confirm Password fields must match."
+            },
+            {
+              "name": "User Privacy Checkbox",
+              "required": true,
+              "description": "Read and accept the Privacy Policy and related terms before creating your account.",
+              "important": "You cannot join HylooSec until the required privacy checkbox is selected."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "registration-steps",
+      "title": "How to Create Your Account",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Enter Your Name",
+              "description": "Enter any preferred name or identity that you want to use on HylooSec."
+            },
+            {
+              "step": 2,
+              "title": "Enter the Father Name",
+              "description": "Enter a memorable value in the Father Name field."
+            },
+            {
+              "step": 3,
+              "title": "Add Your Bio",
+              "description": "Write a short profile description, interest, status, or mood."
+            },
+            {
+              "step": 4,
+              "title": "Select a Date of Birth",
+              "description": "Select a memorable date according to the registration requirements."
+            },
+            {
+              "step": 5,
+              "title": "Choose Chat Security",
+              "description": "Choose between a security key or PIN, depending on the options displayed on the registration page."
+            },
+            {
+              "step": 6,
+              "title": "Select a Security Question",
+              "description": "Choose a security question that will be easy for you to remember but difficult for others to guess."
+            },
+            {
+              "step": 7,
+              "title": "Enter the Security Answer",
+              "description": "Provide the correct answer for the selected security question."
+            },
+            {
+              "step": 8,
+              "title": "Create Your Password",
+              "description": "Enter a strong and unique password."
+            },
+            {
+              "step": 9,
+              "title": "Confirm Your Password",
+              "description": "Re-enter the same password in the Confirm Password field."
+            },
+            {
+              "step": 10,
+              "title": "Accept the Privacy Policy",
+              "description": "Read the Privacy Policy and select the confirmation checkbox."
+            },
+            {
+              "step": 11,
+              "title": "Join HylooSec",
+              "description": "Click the Join HylooSec button to submit the registration form."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "registration-validation",
+      "title": "Form Validation and Common Errors",
+      "blocks": [
+        {
+          "type": "troubleshooting-list",
+          "items": [
+            {
+              "problem": "A required field is empty",
+              "solution": "Complete every required field before submitting the registration form."
+            },
+            {
+              "problem": "Passwords do not match",
+              "solution": "Enter the same password in both the Password and Confirm Password fields."
+            },
+            {
+              "problem": "Password is not accepted",
+              "solution": "Create a stronger password that meets the password requirements displayed on the page."
+            },
+            {
+              "problem": "Security question is not selected",
+              "solution": "Select a security question and enter its answer."
+            },
+            {
+              "problem": "Privacy checkbox is not selected",
+              "solution": "Read the Privacy Policy and select the required checkbox."
+            },
+            {
+              "problem": "Registration request fails",
+              "solution": "Check your internet connection and try again. Avoid repeatedly clicking the Join HylooSec button while the request is processing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "after-registration",
+      "title": "What Happens After Registration?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "After the registration form is successfully submitted, HylooSec creates your account and opens a success page."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Account Creation Confirmation",
+              "description": "A success message confirms that your HylooSec account has been created."
+            },
+            {
+              "step": 2,
+              "title": "Receive Your User ID",
+              "description": "HylooSec generates a unique User ID for your account. This User ID is required to sign in."
+            },
+            {
+              "step": 3,
+              "title": "Review Your Login Details",
+              "description": "The success page displays the account information required for login."
+            },
+            {
+              "step": 4,
+              "title": "Download the Account Document",
+              "description": "HylooSec provides a PDF document containing important account and login information."
+            },
+            {
+              "step": 5,
+              "title": "Store the Document Safely",
+              "description": "Save the downloaded document in a secure location that is not accessible to other people."
+            },
+            {
+              "step": 6,
+              "title": "Continue to Login",
+              "description": "Open the HylooSec login page and use your generated User ID and account password to sign in."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "account-pdf",
+      "title": "Your Account Details PDF",
+      "blocks": [
+        {
+          "type": "warning",
+          "title": "Important Account Document",
+          "text": "The PDF generated after registration may contain information needed to access or recover your account. Treat it as confidential."
+        },
+        {
+          "type": "list",
+          "title": "The document may contain:",
+          "items": [
+            "Your HylooSec User ID",
+            "Your selected profile information",
+            "Your selected security method",
+            "Account creation information",
+            "Login or account-recovery instructions"
+          ]
+        },
+        {
+          "type": "security-guidelines",
+          "title": "How to Protect the PDF",
+          "items": [
+            "Do not send the PDF through public chats.",
+            "Do not upload it to an unknown website.",
+            "Do not share screenshots of the document.",
+            "Store it inside a password-protected folder or trusted password manager.",
+            "Keep a secure backup in case your device is lost.",
+            "Delete unnecessary copies from shared or public devices."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "login-after-registration",
+      "title": "Log In After Creating Your Account",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Open the Login Page",
+              "description": "Go to the HylooSec login page."
+            },
+            {
+              "step": 2,
+              "title": "Enter Your User ID",
+              "description": "Enter the unique User ID generated after registration."
+            },
+            {
+              "step": 3,
+              "title": "Enter Your Password",
+              "description": "Enter the password that you created during registration."
+            },
+            {
+              "step": 4,
+              "title": "Submit the Login Form",
+              "description": "Click the Login button to access your HylooSec account."
+            }
+          ]
+        },
+        {
+          "type": "tip",
+          "title": "Keep Your User ID Safe",
+          "text": "Your User ID is an important account identifier. Save it securely because it is required for future logins."
+        }
+      ]
+    },
+    {
+      "id": "privacy-guidelines",
+      "title": "Privacy and Safety Guidelines",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Avoid entering your phone number, home address, banking details, government identification number, or other sensitive information in your name or bio.",
+            "Use a password that is unique to HylooSec.",
+            "Never share your password, security answer, security key, or PIN.",
+            "Do not leave your account document on a public or shared computer.",
+            "Always verify that you are using the official HylooSec website before entering login details.",
+            "Log out after using HylooSec on a shared device."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "important-note",
+      "title": "Important Note",
+      "blocks": [
+        {
+          "type": "warning",
+          "title": "Account Recovery",
+          "text": "If you lose your User ID, password, security information, and downloaded account document, account recovery may become difficult or impossible. Keep the required account information securely stored."
+        }
+      ]
+    }
+  ],
+    "popup": {
+    "title": "Create Account Help",
+    "content": [
+      "Complete all required registration fields.",
+      "Choose a memorable name, date and security answer.",
+      "Create a strong password.",
+      "Select your preferred chat security method.",
+      "Accept the Privacy Policy.",
+      "Click Join HylooSec.",
+      "Save your generated User ID and account document securely."
+    ],
+    "fullGuideSection": "create-account"
+  },
+    "searchKeywords": [
+    "create HylooSec account",
+    "HylooSec registration",
+    "join HylooSec",
+    "create account",
+    "registration form",
+    "User ID",
+    "chat security key",
+    "security PIN",
+    "security question",
+    "account details PDF",
+    "HylooSec password",
+    "privacy checkbox"
+  ],
+
+  "relatedPages": [
+    {
+      "id": "login",
+      "title": "Login"
+    },
+    {
+      "id": "forgot-password",
+      "title": "Forgot Password"
+    }
+  ]
+}
