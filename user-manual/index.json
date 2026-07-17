@@ -61,42 +61,48 @@
       "title": "Privacy & Security",
       "description": "Learn how HylooSec protects your conversations.",
       "external": "../privacy/index.json",
-      "icon": "shield"
+      "icon": "shield",
+      "enabled": false
     },
     {
       "id": "features",
       "title": "Features",
       "description": "Explore all major features available in HylooSec.",
       "external": "../features/index.json",
-      "icon": "bolt"
+      "icon": "bolt",
+      "enabled": false
     },
     {
       "id": "faq",
       "title": "Frequently Asked Questions",
       "description": "Answers to common user questions.",
       "external": "../faq/index.json",
-      "icon": "help"
+      "icon": "help",
+      "enabled": false
     },
     {
       "id": "troubleshooting",
       "title": "Troubleshooting",
       "description": "Fix common problems quickly.",
       "external": "../troubleshooting/index.json",
-      "icon": "build"
+      "icon": "build",
+      "enabled": false
     },
     {
       "id": "terms",
       "title": "Terms & Conditions",
       "description": "Read HylooSec terms of service.",
       "external": "../terms/index.json",
-      "icon": "description"
+      "icon": "description",
+      "enabled": false
     },
     {
       "id": "about",
       "title": "About HylooSec",
       "description": "Learn why HylooSec was created and its vision.",
       "external": "../about/index.json",
-      "icon": "info"
+      "icon": "info",
+      "enabled": false
     }
   ],
   "footer": {

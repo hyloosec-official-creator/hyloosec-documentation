@@ -83,7 +83,7 @@
       "icon": "shield",
       "order": 2,
       "path": "privacy/index.json",
-      "enabled": true
+      "enabled": false
     },
 
     {
@@ -92,7 +92,7 @@
       "icon": "bolt",
       "order": 3,
       "path": "features/index.json",
-      "enabled": true
+      "enabled": false
     },
 
     {
@@ -101,7 +101,7 @@
       "icon": "help",
       "order": 4,
       "path": "faq/index.json",
-      "enabled": true
+      "enabled": false
     },
 
     {
@@ -110,7 +110,7 @@
       "icon": "build",
       "order": 5,
       "path": "troubleshooting/index.json",
-      "enabled": true
+      "enabled": false
     },
 
     {
@@ -119,7 +119,7 @@
       "icon": "description",
       "order": 6,
       "path": "terms/index.json",
-      "enabled": true
+      "enabled": false
     },
 
     {
@@ -128,7 +128,7 @@
       "icon": "info",
       "order": 7,
       "path": "about/index.json",
-      "enabled": true
+      "enabled": false
     }
   ]
 }
