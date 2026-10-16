@@ -1,0 +1,100 @@
+{
+  "page": "about",
+  "title": "About HylooSec",
+  "tagline": "Privacy-first cloud communication",
+  "intro": "HylooSec is a cloud-based chatting platform designed to make real-time communication simple while reducing the need to expose personal contact information.",
+  "sections": [
+    {
+      "id": "what-is-hyloosec",
+      "title": "What Is HylooSec?",
+      "paragraphs": [
+        "HylooSec is a privacy-focused communication platform where users connect through a unique numeric User ID instead of sharing their phone number or email address for normal messaging.",
+        "It brings together a web-based interface, cloud-backed services and real-time communication to provide a modern chatting experience."
+      ]
+    },
+    {
+      "id": "why-hyloosec",
+      "title": "Why HylooSec?",
+      "paragraphs": [
+        "Online communication often depends on personal identifiers such as phone numbers and email addresses. HylooSec takes a different approach by making its platform User ID the primary way to find and connect with other users.",
+        "The goal is to reduce unnecessary exposure of personal contact information while keeping communication clear and convenient."
+      ]
+    },
+    {
+      "id": "vision",
+      "title": "Our Vision",
+      "paragraphs": [
+        "Our vision is to help make digital communication more privacy-conscious, accessible and user-focused.",
+        "We believe privacy should be considered from the beginning of product design, not treated merely as an optional extra."
+      ]
+    },
+    {
+      "id": "mission",
+      "title": "Our Mission",
+      "paragraphs": [
+        "Our mission is to develop and maintain a dependable communication platform that balances privacy, security, performance and ease of use.",
+        "We review product decisions against these principles so that improvements serve a clear purpose for users."
+      ]
+    },
+    {
+      "id": "principles",
+      "title": "Our Principles",
+      "items": [
+        {
+          "title": "Privacy",
+          "description": "Reduce unnecessary exposure of personal information and use platform identity for normal communication."
+        },
+        {
+          "title": "Security",
+          "description": "Treat authentication and access to conversations as important parts of the platform, and continue improving them over time."
+        },
+        {
+          "title": "Performance",
+          "description": "Aim for responsive interactions and efficient communication without adding unnecessary complexity."
+        },
+        {
+          "title": "Simplicity",
+          "description": "Keep the experience understandable and straightforward so people can focus on their conversations."
+        },
+        {
+          "title": "Scalability",
+          "description": "Keep the platform modular so its services can be maintained and improved as it develops."
+        }
+      ]
+    },
+    {
+      "id": "design-philosophy",
+      "title": "Our Design Philosophy",
+      "paragraphs": [
+        "Good software should be capable without feeling complicated. HylooSec aims for a clean, responsive interface that keeps common actions easy to understand.",
+        "The platform is continuously developed with attention to privacy, security, reliability, maintainability and the overall user experience."
+      ]
+    },
+    {
+      "id": "connect",
+      "title": "Connect With HylooSec",
+      "links": [
+        {
+          "label": "Official Website",
+          "url": "https://www.hyloosec.online"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://github.com/hyloosec-official-creator/hyloosec-documentation"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hyloosec-official-creator"
+        },
+        {
+          "label": "Official Instagram",
+          "url": "https://www.instagram.com/hyloosec/"
+        },
+        {
+          "label": "Contact Email",
+          "url": "mailto:connect.hyloosec@gmail.com"
+        }
+      ]
+    }
+  ]
+}
