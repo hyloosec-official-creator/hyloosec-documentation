@@ -1,0 +1,241 @@
+{
+  "page": "features",
+  "version": "V1",
+  "title": "HylooSec V1 Features",
+  "tagline": "Privacy-focused cloud communication",
+  "intro": "HylooSec V1 establishes the foundation of a modern, cloud-based communication platform. It enables users to create accounts, connect through unique numeric User IDs, exchange messages in real time, share media, and manage conversations through a responsive web interface. The platform focuses on accessible communication, reduced exposure of personal contact information, and a straightforward user experience.",
+  "sections": [
+    {
+      "id": "account-authentication",
+      "title": "Account & Authentication",
+      "description": "Create an account and access HylooSec through its User ID-based identity system and supported verification methods.",
+      "items": [
+        {
+          "title": "Account Creation",
+          "description": "Register an account using the information and verification fields required by the platform."
+        },
+        {
+          "title": "Unique User ID",
+          "description": "Use a unique numeric User ID to identify an account and connect with other users."
+        },
+        {
+          "title": "Password-Based Login",
+          "description": "Authenticate using the account's User ID and password."
+        },
+        {
+          "title": "Password Recovery",
+          "description": "Recover account access through the supported identity and security verification process."
+        },
+        {
+          "title": "Security Questions",
+          "description": "Use the configured security question and answer as part of supported account verification and recovery workflows."
+        },
+        {
+          "title": "Chat Security Verification",
+          "description": "Complete the configured additional verification step before accessing protected conversations."
+        },
+        {
+          "title": "Session Management",
+          "description": "Maintain a login session for up to seven days before re-authentication is required."
+        }
+      ]
+    },
+    {
+      "id": "real-time-messaging",
+      "title": "Real-Time Messaging",
+      "description": "Communicate with other users through a real-time messaging experience.",
+      "items": [
+        {
+          "title": "Instant Messaging",
+          "description": "Send and receive messages in real time between connected users."
+        },
+        {
+          "title": "Message Synchronization",
+          "description": "Synchronize conversation updates with the messaging interface."
+        },
+        {
+          "title": "Delivery Status",
+          "description": "View the available delivery status of outgoing messages."
+        },
+        {
+          "title": "Read Receipts",
+          "description": "See when a message has been viewed by its recipient."
+        },
+        {
+          "title": "Typing Indicators",
+          "description": "See an indicator when another user is typing in an active conversation."
+        },
+        {
+          "title": "Message Timestamps",
+          "description": "Display timing information for messages within conversations."
+        },
+        {
+          "title": "Conversation Previews",
+          "description": "View the latest available message information and activity in the conversation sidebar."
+        }
+      ]
+    },
+    {
+      "id": "conversation-management",
+      "title": "Conversation Management",
+      "description": "Navigate between chats and view conversation activity from one interface.",
+      "items": [
+        {
+          "title": "Conversation Sidebar",
+          "description": "Access existing conversations through a dedicated sidebar."
+        },
+        {
+          "title": "Online Status",
+          "description": "View the available online status of other users."
+        },
+        {
+          "title": "Last Seen",
+          "description": "View available last-seen information for users."
+        },
+        {
+          "title": "Chat Header",
+          "description": "Access user information and conversation-related details from the chat header."
+        },
+        {
+          "title": "Conversation Navigation",
+          "description": "Open and switch between available conversations through the chat interface."
+        }
+      ]
+    },
+    {
+      "id": "user-discovery-profiles",
+      "title": "User Discovery & Profiles",
+      "description": "Find other users through their platform identity and view their available profile information.",
+      "items": [
+        {
+          "title": "Find User",
+          "description": "Search for another registered user using their unique numeric User ID."
+        },
+        {
+          "title": "Profile Information",
+          "description": "View available profile details, including the user's name, bio, and User ID."
+        },
+        {
+          "title": "Start a Conversation",
+          "description": "Begin a conversation with a user discovered through the Find User feature."
+        },
+        {
+          "title": "Existing Conversation Access",
+          "description": "Open an existing conversation when one is already available with the selected user."
+        }
+      ]
+    },
+    {
+      "id": "media-message-composition",
+      "title": "Media & Message Composition",
+      "description": "Compose messages and share supported attachments within conversations.",
+      "items": [
+        {
+          "title": "Image Sharing",
+          "description": "Share supported image files with other users."
+        },
+        {
+          "title": "Video Sharing",
+          "description": "Send supported video files within conversations."
+        },
+        {
+          "title": "Document Sharing",
+          "description": "Share PDF documents and other supported file types."
+        },
+        {
+          "title": "Multiple File Selection",
+          "description": "Select multiple supported files for a message."
+        },
+        {
+          "title": "Media Preview",
+          "description": "Review selected attachments before sending them."
+        },
+        {
+          "title": "Emoji Support",
+          "description": "Insert emojis into messages using the integrated emoji picker."
+        },
+        {
+          "title": "Long Message Support",
+          "description": "Compose lengthy text messages, with an option to expand truncated content when needed."
+        }
+      ]
+    },
+    {
+      "id": "privacy-security",
+      "title": "Privacy & Security",
+      "description": "Reduce unnecessary exposure of personal contact information and protect access to accounts and conversations.",
+      "items": [
+        {
+          "title": "User ID-Based Communication",
+          "description": "Use the platform's numeric User ID to find and communicate with users without requiring their phone number or email address."
+        },
+        {
+          "title": "Password Protection",
+          "description": "Require account credentials to authenticate and access the platform."
+        },
+        {
+          "title": "Additional Chat Verification",
+          "description": "Apply the configured chat-security verification step before granting access to protected conversations."
+        },
+        {
+          "title": "Encrypted Chat Functionality",
+          "description": "Support the encryption and chat-protection functionality implemented in the platform."
+        },
+        {
+          "title": "Reduced Contact Information Exposure",
+          "description": "Avoid requiring a phone number or email address during standard account creation."
+        }
+      ]
+    },
+    {
+      "id": "settings-personalization",
+      "title": "Settings & Personalization",
+      "description": "Manage basic account settings and customize the interface appearance.",
+      "items": [
+        {
+          "title": "Account Information",
+          "description": "Access available information associated with the logged-in account."
+        },
+        {
+          "title": "Dark Mode",
+          "description": "Use the dark interface theme."
+        },
+        {
+          "title": "Light Mode",
+          "description": "Switch to the light interface theme."
+        },
+        {
+          "title": "Logout",
+          "description": "End the current login session using the available logout functionality."
+        }
+      ]
+    },
+    {
+      "id": "responsive-documentation",
+      "title": "Responsive Experience & Documentation",
+      "description": "Use HylooSec across supported screen sizes and access documentation to understand the platform.",
+      "items": [
+        {
+          "title": "Responsive Interface",
+          "description": "Adapt the interface layout to desktop and mobile screen sizes."
+        },
+        {
+          "title": "Mobile Navigation",
+          "description": "Navigate the platform using layouts and controls designed for smaller screens."
+        },
+        {
+          "title": "Desktop Chat Layout",
+          "description": "Use the desktop-oriented conversation layout to access chats and related interface components."
+        },
+        {
+          "title": "Dynamic Documentation",
+          "description": "Load structured documentation content from JSON files and render it through the documentation interface."
+        },
+        {
+          "title": "User Guides",
+          "description": "Access documentation covering account creation, login, password recovery, finding users, using the main chat, and settings."
+        }
+      ]
+    }
+  ]
+}
